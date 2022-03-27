@@ -41,7 +41,8 @@
       "executor": "@nrwl/web:dev-server",
       "options": {
         "buildTarget": "todos:build",
-        "hmr": true
+        "hmr": true,
+        "proxyConfig": "apps/todos/proxy.conf.json"
       },
       "configurations": {
         "production": {
